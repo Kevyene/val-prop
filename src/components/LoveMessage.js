@@ -235,7 +235,7 @@ useEffect(() => {
     <div className="memory-frame">
       <img 
         src="/images/photo2.jpeg" 
-        alt="Cute couple pic" 
+        alt="Cute us" 
         className="memory-img"
         onError={(e) => {
           e.target.onerror = null;
