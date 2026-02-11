@@ -6,18 +6,19 @@ const LoveMessage = () => {
   const [typedText, setTypedText] = useState('');
   const fullMessage = `My pretty baby 💖,
 
+look how far we've come my baby, 
 From the moment you came into my life,
 everything has been brighter, more beautiful,
 and filled with so much joy.
 
 You are the most amazing person I know -
-your smile lights up my world,
-your laughter is my favorite melody,
+your smile yo ,
+your laughter is my favorite moment,
 and your love is the greatest gift I've ever received.
 
 This Valentine's Day, I want to promise you
 that I'll cherish every moment with you,
-support you in all your dreams,
+support you in all your dreams just like you support mine,
 and love you more with each passing day.
 
 Will you be my Valentine today,
