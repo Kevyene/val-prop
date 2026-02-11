@@ -1,0 +1,60 @@
+.rose-petals-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.rose-petal {
+  position: absolute;
+  top: -50px;
+  opacity: 0.7;
+  animation: petalFall linear infinite;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+  z-index: 0;
+}
+
+@keyframes petalFall {
+  0% {
+    transform: 
+      translateY(-100px) 
+      rotate(0deg) 
+      translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: 
+      translateY(100vh) 
+      rotate(360deg) 
+      translateX(100px);
+    opacity: 0;
+  }
+}
+
+.rose-petal:nth-child(odd) {
+  animation-name: petalFallLeft;
+}
+
+@keyframes petalFallLeft {
+  0% {
+    transform: 
+      translateY(-100px) 
+      rotate(0deg) 
+      translateX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: 
+      translateY(100vh) 
+      rotate(-360deg) 
+      translateX(-100px);
+    opacity: 0;
+  }
+}
